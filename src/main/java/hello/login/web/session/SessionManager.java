@@ -1,10 +1,9 @@
-package hello.login.web.SessionManager;
+package hello.login.web.session;
 
 import java.util.Arrays;
 import java.util.Map;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentMap;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

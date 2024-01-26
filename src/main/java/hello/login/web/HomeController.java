@@ -2,7 +2,7 @@ package hello.login.web;
 
 import hello.login.domain.member.Member;
 import hello.login.domain.member.MemberRepository;
-import hello.login.web.SessionManager.SessionManager;
+import hello.login.web.session.SessionManager;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import lombok.RequiredArgsConstructor;

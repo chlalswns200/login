@@ -1,11 +1,6 @@
-package hello.login.web.SessionManager;
+package hello.login.web.session;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-import com.fasterxml.jackson.annotation.JsonTypeInfo.As;
 import hello.login.domain.member.Member;
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServletResponse;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.mock.web.MockHttpServletRequest;
